@@ -1,0 +1,91 @@
+#myslider {
+    width: 100%;
+    top: 0;
+    max-height: 600px;
+    overflow: hidden;
+}
+.navbar{ transition: all 0.5s ease;}
+.carousel-item img{
+    width: -webkit-fill-available;
+}
+.overlay{position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .5;
+    background: #303030;}
+.sliderlogo img {
+    width: 5rem;
+}
+.intro{
+    text-align: center;
+    top: 12.5em;
+
+}
+.footer{
+    background-color: #343a40;
+}
+.head{
+background-image: url("../img/84770f_7693c2f2d0f940b1be3720f66dc42189.jpg");
+background-size: cover;
+height: 400px;
+}
+.reverse{
+    margin-top: -250px;
+    background-color: #fff;
+}
+.gallary{
+    height: 26em;
+    width: 100%;
+    overflow: hidden;
+    transition: all 1s ease;
+}
+.page-btn{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: grid;
+    grid-template-columns: auto auto;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+.page-btn a{
+    text-decoration: none;
+    margin: 1em 4em 1em 2.3em;
+    text-align: center;
+}
+.carousel-indicators {
+    bottom: 1em;
+    margin: 0 auto;
+    width: fit-content;}
+.carousel-indicators li, .control-prev{
+    text-indent: inherit;
+    width: auto;
+    height: auto;
+    margin: 1em 0 0;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #007bff;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    
+}
+.frame{
+    width: inherit;
+    margin: 5em 0 0 0;
+}
+.lmap iframe{
+    position: absolute;
+    top: 2em;
+    width: 95%;
+}
