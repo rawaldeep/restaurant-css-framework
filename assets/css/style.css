@@ -64,6 +64,15 @@
 .footer{
     background-color: #343a40;
 }
+.footer .nav-item span{
+    display: block;
+    padding: .5rem 1rem;
+    color: #fff;
+}
+.social-icons{ 
+    color: #fff;
+    font-size: 1.4em;
+}
 .head{
 background-image: url("../img/84770f_7693c2f2d0f940b1be3720f66dc42189.jpg");
 background-size: cover;
